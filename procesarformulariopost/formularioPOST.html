@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Crear un formulario en html
+con un campo de texto que solicite el nombre del usuario
+un campo de tipo fecha que solicite su fecha de nacimiento
+Un campo tipo select que indique su sexo.
+un campo tipo radio 1-no tiene estudios, 2-estudios primarios, 3-estudios secundarios
+Un campo tipo checkbox ,ckecked por default, que diga que quiero recibir información periódicamente
+Un campo tipo checkbox que diga que acepto las condiciones del servicio-->
+<html  lang="es">
+<head>
+	<meta charset='utf-8'>
+	<title>Formulario POST</title>
+	<meta charset="utf-8" >
+</head>
+<body>
+	<form method="post" action="procesar.php">
+		<div>
+			<label for="nombre"> Nombre</label>
+				<input name="nombre" type="text" id="nombre" placeholder="introduce nombre" required>
+		</div>
+		<div>
+			<label for="fecha"> Fecha de nacimiento</label>
+				<input name="fecha" type="date" id="fecha" placeholder="introduce fecha">
+		</div>
+		<div>
+			<label for="sexo"> Selecciona sexo</label>
+			<select name="sexo" required>
+					<option value=""></option>
+					<option value="mujer">Mujer</option>
+					<option value="hombre">Hombre</option>
+			</select>
+		</div>
+		<div>
+			<label for="estudios"> Selecciona estudios</label></br>
+				<input type="radio" name="estudios" value="no" required>No tiene estudios</input>
+				<input type="radio" name="estudios" value="primarios" required>Estudios primarios</input>
+				<input type="radio" name="estudios" value="secundarios" required>Estudios secundarios</input>
+		</div>
+		<div>
+			<label for="recibirInfo"> ¿Desea recibir información periódicamente?</label>
+				<input name="info" type="checkbox" checked="default"/>
+		</div>
+		<div>
+			<label for="AceptoCondiciones"> Aceptar condiciones</label>
+				<input name="condiciones" type="checkbox"/>
+		</div>
+			<input type="submit"></input>
+	</form>
+		
+</body>
+</html>

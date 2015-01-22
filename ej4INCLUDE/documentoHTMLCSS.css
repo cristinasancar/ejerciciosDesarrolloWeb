@@ -1,0 +1,145 @@
+body{
+	width: 900px;
+	margin: auto;
+	font-family: Verdana, Geneva, Sans Serif;
+	font-size: 14px;
+	background-image: url('imagenes/fondo.gif');
+	background-repeat: repeat-x;
+	background-color: #F2F5FE;
+}
+
+header{
+	width: 100%;
+	float: right;
+	/*border: 2px solid #53ac70;*/
+	padding: 0.5em;
+	background-image: url('imagenes/cabecera.png');
+	color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#identificador{
+	float: left;
+	width: 250px;
+	height: 100px;
+}
+#busqueda{
+	float: right;
+	width: 250px;
+	height: 100px;
+}
+nav{
+	width: 100%;
+	float: right;
+	height: 30px;
+	border: 2px solid white;
+	background-color: #C7D6D1;
+	padding: 0.5em;
+
+}
+
+footer{
+	width: 100%;
+	clear: both;
+}
+aside{
+	float: left;
+	width: 245px;
+	margin-right: 5px;
+	background-image: url('imagenes/flateral.gif');
+}
+#principal{
+	float: left;
+	width: 400px;
+	clear: none;
+	background-image: url('imagenes/fprincipal.jpg');
+}
+#lateralderecho{
+	float: right;
+	width: 245px;
+	margin-left: 5px;
+	background-image:url('imagenes/fderecho.gif');
+	border-bottom: 1px solid #999999;
+}
+
+	
+nav ul{
+	list-style: none;
+	margin: auto;
+	display: block;
+	width: 80%;
+}
+nav ul li{
+	display: inline;
+	float: left;
+	height: 25px;
+	width: 120px;
+	font-family: Verdana;
+	font-size: 18px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #DC8E0E;
+}
+nav ul li a:hover{
+	background-image: url('imagenes/orange_bullet.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	color:#d8e90c;
+}
+#busqueda{
+	padding-top: 5px;
+}
+article{
+	background-image: url('imagenes/farticulo.jpg');
+	padding: 20px;
+	background-repeat: no-repeat;
+}
+article h2{
+	background-color: #D2DEFB;
+	color:#600;
+	padding: 10px;
+	margin-left: -10;
+	margin-right: -10;
+}
+#noticias, #enlaces, #publicidad{
+	background-image: url('imagenes/fnoticias.gif');
+	background-repeat: no-repeat;
+	padding: 5px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;	
+}
+h3{
+	font-size: 150%;
+	font-weight: bold;
+	background-image: url('imagenes/ftitulos.gif');
+	padding: 10px;
+	text-align: center;
+}
+article img{
+	float: left;
+	margin: 5px;
+}
+#lateralderecho h2{
+	color:white;
+	text-align: center;
+	text-decoration: underline;
+
+}
+footer{
+	width: 900px;
+	clear: both;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: #FDF4B5;
+	text-align: center;
+	margin-bottom: 0px;
+	position: fixed;
+	bottom: 0px;
+	
+	
+}
+
+
+
